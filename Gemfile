@@ -14,6 +14,8 @@ gem "sass"
 
 gem "rubyzip"
 
+gem 'guid'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
