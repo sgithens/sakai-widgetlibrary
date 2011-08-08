@@ -1,5 +1,8 @@
 SakaiWidgetlibrary::Application.routes.draw do
 
+  get "widget_generator/index"
+  get "widget_generator/zippedwidget"
+
   root :to => "home#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
