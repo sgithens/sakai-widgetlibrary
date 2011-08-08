@@ -12,6 +12,8 @@ gem 'jquery-rails', '>= 1.0.12'
 # Use SASS for awesome stylesheets
 gem "sass"
 
+gem "rubyzip"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
