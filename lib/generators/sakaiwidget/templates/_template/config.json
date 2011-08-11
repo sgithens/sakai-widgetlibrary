@@ -38,17 +38,17 @@
  */
 {
     "id":                 "<%= @file_name %>",
-    "name":               "WIDGET NAME",
-    "description":        "WIDGET DESCRIPTION",
+    "name":               "<%= @file_name %>",
+    "description":        "<%= @appdesc %>",
     "type":               "contrib",
-    "enabled":            false,
+    "enabled":            true,
     "hasSettings":        false,
     "url":                "/devwidgets/<%= @file_name %>/<%= @file_name %>.html",
     "img":                "/devwidgets/<%= @file_name %>/images/<%= @file_name %>.png",
     "i18n": {
         "default":        "/devwidgets/<%= @file_name %>/bundles/default.properties"
     },
-    "personalportal":     false,
+    "personalportal":     "<%= @personalportal %>",
     "sakaidocs":          false,
-    "showinsakaigoodies": false
+    "showinsakaigoodies": "<%= @showinsakaigoodies %>"
 }
